@@ -4,11 +4,11 @@ def main():
         print("Invalid score")
         score = get_score()
     if score >= 90:
-        print()
+        print("Excellent")
     elif score < 50:
-        print()
+        print("bad")
     else:
-        print()
+        print("passable")
 
 
 def get_score():
